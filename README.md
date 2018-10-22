@@ -86,7 +86,9 @@ Default hint characters for links are `asdfgqwertzxcvb`, it quits when a non-hin
 
     Hints.characters = 'yuiophjklnm'; // for right hand
 
-When hints are overlapped, press `Shift` to flip them. Hold `space` to hold hints temporarily, release `space` to restore hints.
+Characters at the end of the list (ie. m, n, l in the example above) will be used as the leading character for 2-letter hints.
+
+When hints are overlapped, press `Shift` to flip them. Hold `space` to hide hints temporarily, release `space` to restore hints.
 
 Hints are placed in center of target links, you could add below line in your settings to let them aligned left.
 
